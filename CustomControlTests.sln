@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfControlNetCore", "WpfControlNetCore\WpfControlNetCore.csproj", "{F316975A-5DCA-4B0D-BA48-BC0B731BDF36}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlNetFramework", "WpfControlNetFramework\WpfControlNetFramework.csproj", "{4A5D57A0-0CFD-4F16-AE99-3713F4E027A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsControlNetFramework", "WinFormsControlNetFramework\WinFormsControlNetFramework.csproj", "{BCE60E29-CFCB-4E2F-9D64-7D464EA1E9FB}"
@@ -13,26 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAppNetFramework", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppNetFramework", "WpfAppNetFramework\WpfAppNetFramework.csproj", "{B6C1B0C3-02DA-4CAD-ADAD-25E023A9888E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppNetCore", "WpfAppNetCore\WpfAppNetCore.csproj", "{E0950CE6-A449-4554-87F0-1272C3DB31AC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{CF92FFB1-8644-46C5-86AD-237E37BB8DFB}"
-	ProjectSection(SolutionItems) = preProject
-		MiscNotes.txt = MiscNotes.txt
-		WinFormsControlNetCore.txt = WinFormsControlNetCore.txt
-		WPFNetFrameworkDesignTime.txt = WPFNetFrameworkDesignTime.txt
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetFramework", "NetFramework", "{0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{5E8DB042-00B9-4F8E-87DD-9BE88FCAD36B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlNetFramework.Design", "WpfControlNetFramework.Design\WpfControlNetFramework.Design.csproj", "{C132EB8D-0A31-48F0-B15C-5A16AC0177BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsAppNetCore", "WinFormsAppNetCore\WinFormsAppNetCore.csproj", "{6954F0C3-0FB4-4177-971E-3E86D5EFC4B7}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsControlNetCore", "WinFormsControlNetCore\WinFormsControlNetCore.csproj", "{8E83A303-61BF-4080-A48F-13B7585AE8F9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlNetFramework.Design", "WpfControlNetFramework.Design\WpfControlNetFramework.Design.csproj", "{D8CE401F-DAF7-46C6-9ED6-6E1ED7746E15}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfControlNetCore.Design", "WpfControlNetCore.Design\WpfControlNetCore.Design.csproj", "{3623DE4D-79EE-4D1B-9E48-1B3A915A7E01}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetStandard", "NetStandard", "{EEB094BF-2F3F-4963-A17B-5CF65C637607}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F316975A-5DCA-4B0D-BA48-BC0B731BDF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F316975A-5DCA-4B0D-BA48-BC0B731BDF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F316975A-5DCA-4B0D-BA48-BC0B731BDF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F316975A-5DCA-4B0D-BA48-BC0B731BDF36}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A5D57A0-0CFD-4F16-AE99-3713F4E027A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A5D57A0-0CFD-4F16-AE99-3713F4E027A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A5D57A0-0CFD-4F16-AE99-3713F4E027A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -60,41 +39,20 @@ Global
 		{B6C1B0C3-02DA-4CAD-ADAD-25E023A9888E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6C1B0C3-02DA-4CAD-ADAD-25E023A9888E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6C1B0C3-02DA-4CAD-ADAD-25E023A9888E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E0950CE6-A449-4554-87F0-1272C3DB31AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0950CE6-A449-4554-87F0-1272C3DB31AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0950CE6-A449-4554-87F0-1272C3DB31AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0950CE6-A449-4554-87F0-1272C3DB31AC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6954F0C3-0FB4-4177-971E-3E86D5EFC4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6954F0C3-0FB4-4177-971E-3E86D5EFC4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6954F0C3-0FB4-4177-971E-3E86D5EFC4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6954F0C3-0FB4-4177-971E-3E86D5EFC4B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8E83A303-61BF-4080-A48F-13B7585AE8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E83A303-61BF-4080-A48F-13B7585AE8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E83A303-61BF-4080-A48F-13B7585AE8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E83A303-61BF-4080-A48F-13B7585AE8F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D8CE401F-DAF7-46C6-9ED6-6E1ED7746E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8CE401F-DAF7-46C6-9ED6-6E1ED7746E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8CE401F-DAF7-46C6-9ED6-6E1ED7746E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8CE401F-DAF7-46C6-9ED6-6E1ED7746E15}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3623DE4D-79EE-4D1B-9E48-1B3A915A7E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3623DE4D-79EE-4D1B-9E48-1B3A915A7E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3623DE4D-79EE-4D1B-9E48-1B3A915A7E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3623DE4D-79EE-4D1B-9E48-1B3A915A7E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C132EB8D-0A31-48F0-B15C-5A16AC0177BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C132EB8D-0A31-48F0-B15C-5A16AC0177BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C132EB8D-0A31-48F0-B15C-5A16AC0177BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C132EB8D-0A31-48F0-B15C-5A16AC0177BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F316975A-5DCA-4B0D-BA48-BC0B731BDF36} = {5E8DB042-00B9-4F8E-87DD-9BE88FCAD36B}
 		{4A5D57A0-0CFD-4F16-AE99-3713F4E027A6} = {0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}
 		{BCE60E29-CFCB-4E2F-9D64-7D464EA1E9FB} = {0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}
 		{98512385-3F72-43F2-AEF1-3B55A6DC7198} = {0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}
 		{B6C1B0C3-02DA-4CAD-ADAD-25E023A9888E} = {0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}
-		{E0950CE6-A449-4554-87F0-1272C3DB31AC} = {5E8DB042-00B9-4F8E-87DD-9BE88FCAD36B}
-		{6954F0C3-0FB4-4177-971E-3E86D5EFC4B7} = {5E8DB042-00B9-4F8E-87DD-9BE88FCAD36B}
-		{8E83A303-61BF-4080-A48F-13B7585AE8F9} = {5E8DB042-00B9-4F8E-87DD-9BE88FCAD36B}
-		{D8CE401F-DAF7-46C6-9ED6-6E1ED7746E15} = {0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}
-		{3623DE4D-79EE-4D1B-9E48-1B3A915A7E01} = {5E8DB042-00B9-4F8E-87DD-9BE88FCAD36B}
+		{C132EB8D-0A31-48F0-B15C-5A16AC0177BE} = {EEB094BF-2F3F-4963-A17B-5CF65C637607}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {218098CA-01C6-4853-9012-C6D47BB23F26}
