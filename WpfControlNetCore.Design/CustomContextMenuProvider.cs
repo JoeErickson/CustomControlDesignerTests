@@ -38,7 +38,7 @@ namespace WpfControlNetCore.Design
         private void RedBackground_Execute(object sender, MenuActionEventArgs e)
         {
             var item = e.Selection.PrimarySelection;
-            item.Properties["Background"].SetValue(System.Windows.Media.Brushes.Orange);
+            item.Properties["Background"].SetValue(System.Windows.Media.Brushes.Green);
         }
 
         private void WhiteBackground_Execute(object sender, MenuActionEventArgs e)
