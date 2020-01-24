@@ -13,6 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfControlNetFramework.Desi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetStandard", "NetStandard", "{EEB094BF-2F3F-4963-A17B-5CF65C637607}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{658F1484-6544-4B45-AA04-07545A1CC873}"
+	ProjectSection(SolutionItems) = preProject
+		SUCCESS.txt = SUCCESS.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
