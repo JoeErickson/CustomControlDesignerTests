@@ -5,15 +5,11 @@ VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlNetFramework", "WpfControlNetFramework\WpfControlNetFramework.csproj", "{4A5D57A0-0CFD-4F16-AE99-3713F4E027A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsControlNetFramework", "WinFormsControlNetFramework\WinFormsControlNetFramework.csproj", "{BCE60E29-CFCB-4E2F-9D64-7D464EA1E9FB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAppNetFramework", "WinFormsAppNetFramework\WinFormsAppNetFramework.csproj", "{98512385-3F72-43F2-AEF1-3B55A6DC7198}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppNetFramework", "WpfAppNetFramework\WpfAppNetFramework.csproj", "{B6C1B0C3-02DA-4CAD-ADAD-25E023A9888E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetFramework", "NetFramework", "{0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlNetFramework.Design", "WpfControlNetFramework.Design\WpfControlNetFramework.Design.csproj", "{C132EB8D-0A31-48F0-B15C-5A16AC0177BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfControlNetFramework.Design", "WpfControlNetFramework.Design\WpfControlNetFramework.Design.csproj", "{C132EB8D-0A31-48F0-B15C-5A16AC0177BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetStandard", "NetStandard", "{EEB094BF-2F3F-4963-A17B-5CF65C637607}"
 EndProject
@@ -27,14 +23,6 @@ Global
 		{4A5D57A0-0CFD-4F16-AE99-3713F4E027A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A5D57A0-0CFD-4F16-AE99-3713F4E027A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A5D57A0-0CFD-4F16-AE99-3713F4E027A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BCE60E29-CFCB-4E2F-9D64-7D464EA1E9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCE60E29-CFCB-4E2F-9D64-7D464EA1E9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCE60E29-CFCB-4E2F-9D64-7D464EA1E9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCE60E29-CFCB-4E2F-9D64-7D464EA1E9FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{98512385-3F72-43F2-AEF1-3B55A6DC7198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98512385-3F72-43F2-AEF1-3B55A6DC7198}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98512385-3F72-43F2-AEF1-3B55A6DC7198}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98512385-3F72-43F2-AEF1-3B55A6DC7198}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B6C1B0C3-02DA-4CAD-ADAD-25E023A9888E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B6C1B0C3-02DA-4CAD-ADAD-25E023A9888E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6C1B0C3-02DA-4CAD-ADAD-25E023A9888E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,8 +37,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4A5D57A0-0CFD-4F16-AE99-3713F4E027A6} = {0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}
-		{BCE60E29-CFCB-4E2F-9D64-7D464EA1E9FB} = {0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}
-		{98512385-3F72-43F2-AEF1-3B55A6DC7198} = {0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}
 		{B6C1B0C3-02DA-4CAD-ADAD-25E023A9888E} = {0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}
 		{C132EB8D-0A31-48F0-B15C-5A16AC0177BE} = {EEB094BF-2F3F-4963-A17B-5CF65C637607}
 	EndGlobalSection
