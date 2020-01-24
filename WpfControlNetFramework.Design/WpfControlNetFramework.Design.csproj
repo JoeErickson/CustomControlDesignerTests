@@ -51,11 +51,5 @@
     <Compile Include="RegisterMetaData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WpfControlNetFramework\WpfControlNetFramework.csproj">
-      <Project>{4a5d57a0-0cfd-4f16-ae99-3713f4e027a6}</Project>
-      <Name>WpfControlNetFramework</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
