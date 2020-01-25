@@ -1,4 +1,3 @@
 WpfControlNetFramework.Design as a .Net Standard library works! 
-However, I have to copy the WpfControlNetFramework.Design output from "..\NetCore\bin\Release\netstandard2.0" 
-to "..\NetCore\bin\Release" where WpfControlNetFramework.dll resides.
-Todo: This should be a postbuild copy
+Note the post-build command for project WpfControlNetFramework.Design to copy
+design assemblies to the same output path as project WpfControlNetFramework.
