@@ -1,1 +1,2 @@
-WpfControlNetCore.Design as a .Net Core project does not appear to work.
+WpfControlNetCore.Design as a .Net Core project does not appear to work. Everything compiles but my Red, White  and Blue MenuAction
+items aren't showing in designer context menu for the ButtonWithDesignTime control.
