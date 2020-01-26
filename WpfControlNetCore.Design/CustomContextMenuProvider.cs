@@ -1,13 +1,14 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.DesignTools.Extensibility.Interaction;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Windows.Design.Interaction;
+using System.Windows.Media;
 
 namespace WpfControlNetCore.Design
 {
-    class CustomContextMenuProvider : Microsoft.Windows.Design.Interaction.PrimarySelectionContextMenuProvider
+    class CustomContextMenuProvider : PrimarySelectionContextMenuProvider
     {
         private MenuAction redBackgroundMenuAction;
         private MenuAction whiteBackgroundMenuAction;
@@ -40,7 +41,7 @@ namespace WpfControlNetCore.Design
         private void RedBackground_Execute(object sender, MenuActionEventArgs e)
         {
             var item = e.Selection.PrimarySelection;
-            item.Properties["Background"].SetValue(System.Windows.Media.Brushes.Orange);
+            item.Properties["Background"].SetValue(Brushes.Orange);
         }
 
         private void WhiteBackground_Execute(object sender, MenuActionEventArgs e)

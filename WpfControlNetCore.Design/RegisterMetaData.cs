@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Windows.Design.Features;
-using Microsoft.Windows.Design.Metadata;
+using Microsoft.VisualStudio.DesignTools.Extensibility.Features;
+using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
 
 // The ProvideMetadata assembly-level attribute indicates to designers
 // that this assembly contains a class that provides an attribute table. 
-[assembly: ProvideMetadata(typeof(WpfControlNetCore.Design.RegisterMetaData))]
+[assembly: ProvideMetadata(typeof(WpfControlNetCore.DesignTools.MetaData))]
+//[assembly: ProvideMetadata(typeof(CustomControlLibrary.WpfCore.DesignTools.Metadata))]
 
-namespace WpfControlNetCore.Design
+namespace WpfControlNetCore.DesignTools
 {
     public class RegisterMetaData : IProvideAttributeTable
     {
@@ -22,8 +23,12 @@ namespace WpfControlNetCore.Design
 
                 // Add the menu provider to the design-time metadata.
                 builder.AddCustomAttributes(
-                    typeof(WpfControlNetCore.ButtonWithDesignTime),
+                    "WpfControlNetCore.ButtonWithDesignTime",
                     new FeatureAttribute(typeof(CustomContextMenuProvider)));
+
+                builder.AddCustomAttributes(
+    "CustomControlLibrary.WpfCore.CustomButton",
+    new FeatureAttribute(typeof(CustomContextMenuProvider)));
 
                 return builder.CreateTable();
             }
