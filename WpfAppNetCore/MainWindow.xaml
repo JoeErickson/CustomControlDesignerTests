@@ -8,6 +8,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <WpfControlNetCore:ButtonWithDesignTime Content="Use design-time ContextMenu to change background color" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <WpfControlNetCore:ButtonWithDesignTime Content="Use design-time ContextMenu to change background color" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Orange"/>
     </Grid>
 </Window>

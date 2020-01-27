@@ -1,2 +1,0 @@
-The .Net Framework WPFControlNetCore.Design project shows errors when referencing the .Net Core WpfControlNetCore project. 
-Conclusion: WPF .Net Framework libraries can't reference .Net Core projects/assemblies. 

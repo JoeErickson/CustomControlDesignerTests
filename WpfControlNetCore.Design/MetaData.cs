@@ -9,11 +9,10 @@ using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
 // The ProvideMetadata assembly-level attribute indicates to designers
 // that this assembly contains a class that provides an attribute table. 
 [assembly: ProvideMetadata(typeof(WpfControlNetCore.DesignTools.MetaData))]
-//[assembly: ProvideMetadata(typeof(CustomControlLibrary.WpfCore.DesignTools.Metadata))]
 
 namespace WpfControlNetCore.DesignTools
 {
-    public class RegisterMetaData : IProvideAttributeTable
+    public class MetaData : IProvideAttributeTable
     {
         public AttributeTable AttributeTable
         {
@@ -25,10 +24,6 @@ namespace WpfControlNetCore.DesignTools
                 builder.AddCustomAttributes(
                     "WpfControlNetCore.ButtonWithDesignTime",
                     new FeatureAttribute(typeof(CustomContextMenuProvider)));
-
-                builder.AddCustomAttributes(
-    "CustomControlLibrary.WpfCore.CustomButton",
-    new FeatureAttribute(typeof(CustomContextMenuProvider)));
 
                 return builder.CreateTable();
             }

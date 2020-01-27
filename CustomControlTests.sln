@@ -9,14 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppNetCore", "WpfAppNetC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{CF92FFB1-8644-46C5-86AD-237E37BB8DFB}"
 	ProjectSection(SolutionItems) = preProject
-		FAIL.txt = FAIL.txt
+		SUCCESS.txt = SUCCESS.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetFramework", "NetFramework", "{0ADD4335-A29A-4D31-8EBF-8D4DDC8C609D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{5E8DB042-00B9-4F8E-87DD-9BE88FCAD36B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlNetCore.Design", "WpfControlNetCore.Design\WpfControlNetCore.Design.csproj", "{8B0DCC56-7164-4820-B3F5-36A581F5CF40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlNetCore.DesignTools", "WpfControlNetCore.Design\WpfControlNetCore.DesignTools.csproj", "{8B0DCC56-7164-4820-B3F5-36A581F5CF40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

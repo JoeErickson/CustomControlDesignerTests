@@ -1,0 +1,15 @@
+The link below explains the new "surface isolation architecture" for .Net Core designer extensibility
+for adding designer extensibility to UWP and WPF controls that target .Net Core.
+The new architecture uses a .designtools.dll file extension (rather than the old .design.dll file extension).
+https://github.com/microsoft/xaml-designer-extensibility/blob/master/documents/xaml-designer-extensibility-migration.md
+
+Steps to create the .Net Core designer extensibility project
+1) Add a new .Net Framework class project that is named after the .Net Core custom control assembly,
+but with .DesignTools appended.
+example: For a .Net Core assembly named CustomControlLibrary.WPF.NetCore.dll make a new .Net Framework class project named 
+CustomControlLibrary.WPF.NetCore.DesignTools
+2) Install the nuget package below 
+https://www.nuget.org/packages/Microsoft.VisualStudio.DesignTools.Extensibility
+3) Add references to PresentationCore and PresentationFramework
+4) Implement designer extensibility code
+5) Build designer assembly output files to the same folder that CustomControlLibrary.WPF.NetCore assembly is output to.

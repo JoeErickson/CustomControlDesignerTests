@@ -7,8 +7,8 @@
     <ProjectGuid>{8B0DCC56-7164-4820-B3F5-36A581F5CF40}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WpfControlNetCore.Design</RootNamespace>
-    <AssemblyName>WpfControlNetCore.Design</AssemblyName>
+    <RootNamespace>WpfControlNetCore.DesignTools</RootNamespace>
+    <AssemblyName>WpfControlNetCore.DesignTools</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\netcoreapp3.1\</OutputPath>
+    <OutputPath>..\NetCore\bin\Debug\netcoreapp3.1\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -25,7 +25,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\netcoreapp3.1\</OutputPath>
+    <OutputPath>..\NetCore\bin\Release\netcoreapp3.1\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomContextMenuProvider.cs" />
-    <Compile Include="RegisterMetaData.cs" />
+    <Compile Include="MetaData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
